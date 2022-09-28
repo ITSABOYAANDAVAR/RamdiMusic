@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴀɪɴᴀ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ՏհɑƘíժɑ | 𝙈𝙐𝙎𝙄𝘾")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1962673406").split())
+    map(int, getenv("OWNER_ID", "5065752827").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/OYE_GOLGAPPU")
+    "SUPPORT_CHANNEL", "https://t.me/SHEILDSUPPORT")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LOBE_JU")
+    "SUPPORT_GROUP", "https://t.me/GIRLSSAFEZONE")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/2c63dd4811ceb728bcb33.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg",
+    "https://telegra.ph//file/c2677756d1cfc2408da84.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
